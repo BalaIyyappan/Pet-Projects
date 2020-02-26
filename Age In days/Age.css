@@ -1,0 +1,29 @@
+.main{
+	border:2px solid green;
+	padding:15px;
+	margin: 20px;
+	text-align: center;
+}
+.buttons{
+	display: flex;
+	justify-content: space-around; ;
+}
+.result{
+	border: 2px solid #2debd8;
+	padding:15px;
+	margin: 20px;
+	text-align: center;
+}
+
+#days{
+	text-align: center;
+	/*Blinking Animation*/
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #190af5;    }
+    49%{    color: #190af5; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}

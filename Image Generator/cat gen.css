@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 75%;
+	text-align: center;
+	margin: 30px auto;
+	padding: 15px;
+	border:3px solid blue;
+}
+#gen{
+	margin: 10px;
+}
+.result{
+	border:3px solid green;
+	width: 75%;
+	margin: 30px auto;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+img{
+	height: 200px;
+	width: 200px;
+	padding:10px;
+}

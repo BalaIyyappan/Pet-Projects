@@ -29,5 +29,4 @@ function strike(row_no,flag){
 
 	let striked = temp_text.strike();
 	tostrike.innerHTML=striked;
-
 }

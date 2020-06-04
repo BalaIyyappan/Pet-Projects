@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  font-family: cursive;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+header h1{
+  font-size: 40px;
+  color: #edebe6;
+}
+header{
+	display: flex;
+	align-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+#date{
+	font-weight: 500;
+	font-size: 70px;
+	color: #3ce312;
+}
+.tasks{
+	width: 40%;
+	height: 50%;
+	margin:auto;
+}
+table{
+	border-radius: 13px;
+	border-style: hidden;
+	font-size: 20px;
+	text-align: center;
+}
+#add{
+	color: #0eedc1;
+}
+td a{
+	display: block;
+	width: 100%;
+}

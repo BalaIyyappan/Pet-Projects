@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timer & Date</title>
+	<link rel="stylesheet" type="text/css" href="timer.css">
+	<script type="text/javascript" src= "timer.js" defer></script>
+</head>
+<body onload="calendar()">
+	<div class="container">
+		<div class="date">
+			<div class="content">
+			<p id='month'></p>
+			<p id='day'></p>			
+			<p id='date'></p>
+			<p id='year'></p>
+		</div>
+		</div>
+	<div class="timer">
+		<img src="timer.png">
+		<div id="display">00:00:00</div>
+		<div id="preset">
+			<div class="seconds">
+				<button onclick="timeset(5)">5 Sec</button>
+				<button onclick="timeset(5)">10 Sec</button>
+				<button onclick="timeset(5)">25 Sec</button>
+				<button onclick="timeset(5)">30 Sec</button>
+				<button onclick="timeset(5)">1 Min</button>
+			</div>
+			<button onclick="timeset(5*60)">5 Min</button>
+			<button onclick="timeset(15*60)">15 Min</button>
+			<button onclick="timeset(20*60)">20 Min</button>
+			<button onclick="timeset(25*60)">25 Min</button>
+			<button onclick="timeset(30*60)">30 Min</button>
+		</div>
+		<button id="Stop" onclick="location.reload()" style="font-weight: bolder;margin-top: 8px;font-size: 22px;">Stop</button>
+		<audio id="song" >
+			<source src="Train.mp3" type="audio/mpeg">
+		</audio>
+	</div>
+	</div>
+	
+</body>
+</html>

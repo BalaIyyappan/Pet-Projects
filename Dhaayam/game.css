@@ -1,0 +1,69 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 2px;
+    box-sizing:border-box;
+    min-height: 90%;
+}
+.game {
+    float: left;
+    width: 45%;
+    box-shadow: 15px -1px 5px -5px rgba(168,18,168,1);
+    display:flex;
+}
+/*Players of the game and the points*/
+.play{
+    margin-top: 10px;
+    float: right;
+    width: 50%;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.r1,.r2,.r3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+.btnp{
+    cursor: pointer;
+    background-color: #33cc33;
+    text-align: center;
+    color: white;
+    padding: 30px 50px;
+    margin: 3px;
+    font-size: 50px;
+}
+/*Players of the game and the points*/
+
+
+table{
+    border:1px solid;
+}
+.coins{
+    border: 1px solid;
+    width: 10px;
+    padding-top: 5%;
+    text-align: center;
+}
+img{
+    width: 50px;
+    height:70px;
+}
+.board{
+    float : right;
+}
+tr,td{
+    border: 1px solid;
+}
+.dot{
+    width: 20px;
+    min-height:20px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}

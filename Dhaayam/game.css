@@ -63,7 +63,8 @@ tr,td{
 .dot{
     width: 20px;
     min-height:20px;
+    border:1px solid magenta;
     border-radius: 50%;
-    background-color: black;
+    background-color: white;
     display: inline-block;
 }

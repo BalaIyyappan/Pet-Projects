@@ -37,6 +37,8 @@ header span{
   width: 25%;
   display: flex;
   flex-direction: row;
+  margin-top:5%;
+  margin-left: 2%;
 }
 .time{
   width: 350px;
@@ -61,6 +63,15 @@ header span{
   justify-content: center;
   align-self: center;
   min-width: 100%;
+}
+#z{
+  color:#2b47cf;
+  font-style: normal;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  min-width: 100%;  
 }
 .date{
   min-width: 100%;

@@ -5,7 +5,7 @@
   font-family: monospace;
 }
 body{
-  min-height: 95%;
+  min-height: 90%;
   background:#212126;
   margin:1%;
 }
@@ -100,6 +100,11 @@ header span{
   font-size: 20px;
   color:#f53d3d;
 }
+.sleep{
+  height: auto;
+  /* border: 1px solid red; */
+}
+
 .chartData{
   display: flex;
   flex-direction: column;

@@ -71,13 +71,15 @@ header span{
   display: flex;
   justify-content: center;
   align-self: center;
-  min-width: 100%;  
+  min-width: 100%;
 }
 .date{
   min-width: 100%;
   display: flex;
-  justify-content: center;
-  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:column;
+  min-height: 100%;
 }
 .content{
   display: flex;
@@ -97,4 +99,9 @@ header span{
   margin: auto;
   font-size: 20px;
   color:#f53d3d;
+}
+.chartData{
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-between;
 }

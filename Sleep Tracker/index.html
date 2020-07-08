@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sleep Tracker</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="sleep.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="sleep.js" defer></script>
@@ -32,9 +33,9 @@
         </div>
         <div class="sleep">
           <div class="chartData">
-            <label for="sleep">SLEPT AT</label>
-            <label for="woke">WOKE AT</label>
-            <button id='chartAdd'>ADD TO CHART</button>
+            <label for="sleep" style="color:#50d420;text-align:center;fontSize:26;">SLEPT AT</label><span id="slept"></span><input type="range" min="1" max="12" onchange="changes(this.value)">
+            <label for="woke" style="color:#50d420;text-align:center;fontSize:26;">WOKE AT</label><span id="wokeup"></span><input type="range" min="1" max="12" onchange="changew(this.value)">
+            <button id='chartAdd' class="btn btn-info" onclick="chartUpdate()">ADD TO CHART</button>
           </div>
         </div>
       </div>

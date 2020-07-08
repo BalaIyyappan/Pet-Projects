@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sleep Tracker</title>
   <link rel="stylesheet" href="sleep.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="sleep.js" defer></script>
 </head>
 <body>
@@ -28,8 +29,20 @@
           <p id='day'></p>
           <p id='date'></p>
 
-        </div></div>
+        </div>
+        <div class="sleep">
+          <div class="chartData">
+            <label for="sleep">SLEPT AT</label>
+            <label for="woke">WOKE AT</label>
+            <button id='chartAdd'>ADD TO CHART</button>
+          </div>
+        </div>
       </div>
+        <div id="chart">
+          <canvas id="myChart" width="530" height="430" style="background-color:#212126;;"></canvas>
+        </div>
+      </div>
+
 
 </body>
 </html>

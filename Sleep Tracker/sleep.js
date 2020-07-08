@@ -71,3 +71,18 @@ let chart = new Chart(canvas, {
 		}
     }
 });
+
+function changes(x){
+	let s=document.getElementById('slept');
+	s.innerHTML=x;
+	s.style.color="#20d48f";
+	s.style.fontSize=20;
+	s.style.textAlign='center';
+}
+function changew(y){
+	let w = document.getElementById('wokeup');
+	w.innerHTML=y;
+	w.style.color="#20d48f";
+	w.style.fontSize=20;
+	w.style.textAlign='center';
+}

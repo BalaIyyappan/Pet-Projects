@@ -86,3 +86,11 @@ function changew(y){
 	w.style.fontSize=20;
 	w.style.textAlign='center';
 }
+function chartUpdate(){
+	let x;let y;
+	x=document.getElementById("slept").textContent;
+	y=document.getElementById("wokeup").textContent;
+	let interval = Math.abs(y-x);
+	console.log(interval);
+}
+

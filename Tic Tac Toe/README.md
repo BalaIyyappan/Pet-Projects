@@ -13,9 +13,3 @@ WIN STREAK
 <p align="center">
 <img src="Win.JPG" width="90%" alt="X Win">
 </p>
-<p align="center">
-LOSE STREAK
-</p>
-<p align="center">
-<img src="OWin.JPG" width="90%" alt="O Win">
-</p>

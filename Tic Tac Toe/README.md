@@ -1,6 +1,6 @@
-<p align="center">
-<b>TIC TAC TOE</b>
-</p>
+
+# TIC TAC TOE
+
 <p align="center">
 <i>HOME PAGE</i>
 </p>

@@ -1,6 +1,5 @@
-<p align="center">
-ROCK PAPER SCISSOR GAME
-</p>
+# ROCK PAPER SCISSOR
+
 <p align="center">
 WELCOME PAGE
 </p>

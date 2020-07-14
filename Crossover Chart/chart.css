@@ -1,1 +1,36 @@
 
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+ul {list-style-type: none;}
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #27418f;
+  min-height: 90vh;
+  width: 100%;
+  margin:auto;
+}
+.header{
+  width:95%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  color: #2dba2f;
+  font-style: bold;
+  font-size: 50px;
+  justify-content: space-between;
+}
+button{
+  font-size: 100px;
+  background: transparent;
+  color:#e61cc0;
+  border:none;
+}
+.mon-yr{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

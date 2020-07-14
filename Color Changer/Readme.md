@@ -3,5 +3,5 @@
   <img src="Color_Theme.JPG" width="70%" title="Light Theme">
 </p>
 <p align="center">
-  <img src="Dark_Theme.JPG" width="500" alt="Dark Theme">
+  <img src="Dark_Theme.JPG" width="70%" alt="Dark Theme">
 </p>

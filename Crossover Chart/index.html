@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -7,15 +6,17 @@
   <link rel = "stylesheet" href = "calendar.css">
   <script type="text/javascript" defer src="calendar.js"></script>
 </head>
-<body>
+<body onload="monyr()">
   <div class="main">
     <div class="header">
-      <button id="left"><</button>
-      <div class="mon-yr" align="center">JANUARY<span align="center">2020</span></div>
-      <button id="right">></button>
+      <button id="left" onclick="left()"><</button>
+      <div class="mon-yr" align="center" id="month"></div>
+      <button id="right" onclick="right()">></button>
     </div>
-    <div class="days"></div>
-    <div class="date"></div>
+    <div id="days"></div>
+    <div class="datediv" id="date">   
+    </div>
+
   </div>
 </body>
 </html>

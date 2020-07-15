@@ -31,9 +31,7 @@ window.onload=function(){
 			X_or_O+=1;
 		}}
 	};
-}
-}
-};
+}}};
 
 function game(){
 	//To get ID of all DIV's
